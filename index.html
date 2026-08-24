@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>San Martín Virtual</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Chatbot educativo sobre José de San Martín: conocé su vida, sus campañas militares, el Cruce de los Andes y su papel fundamental en la independencia de América del Sur."
+    />
+    <meta
+      name="keywords"
+      content="José de San Martín, independencia Argentina, Cruce de los Andes, prócer argentino, chatbot histórico"
+    />
+  </head>
+  <body>
+    <h1>🇦🇷 San Martín Virtual 🤖</h1>
+    <p>Escribí una pregunta sobre José de San Martín.</p>
+    <main>
+    <div class="contenedor">
+    <input
+      type="text" id="pregunta" class="input-activo" placeholder="Escribí tu pregunta..."
+onkeydown="if(event.key==='Enter') responder()">
+    <button id="btnEnviar" class="btn-activo" onclick="responder()">Preguntar</button>
+    </div>
+
+    <hr>
+    
+    <div id="respuesta">
+      <p class="parrafo">🤖 <b>CruzIA:</b> Hola, soy <span class="cruzia">CruzIA</span> un chatbot sanmartiniano.
+        Podés hacerme preguntas sobre la vida e historia de José de San Martín. 
+        Escribí <span class="salir">salir</span> para terminar.</p>
+      
+    <hr>
+  </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

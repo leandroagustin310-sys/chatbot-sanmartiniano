@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body{
+background-color: #F5F5F5 ;
+padding: 30px;
+font-family: "Inter", sans-serif;
+
+}
+
+h1{
+  text-align: center;
+  color:#003049 ;
+  margin-bottom: 20px;
+}
+p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid;
+ border-color: #003049;
+ margin-bottom: 15px;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: #003049;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+#respuesta{
+  border:2px solid  #003049;
+  background-color: #FFFFFF;
+  padding: 20px;
+    margin-top: 10px;
+    height: 550px;
+    overflow-y: auto;
+   
+  }
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 10px;
+}
+
+.usuario{
+  background-color: #D8F3DC;
+  margin:10px 0px ;
+  padding: 10px;
+  text-align: right;
+}
+
+.bot{
+  text-align: left;
+  background-color: #FFFFFF;
+  margin:10px 0px ;
+  padding: 10px;
+}
+
+.btn-activo {
+  background-color: #1524f3;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.4);
+  transition: all 0.3s ease;
+}
+.btn-activo:hover{
+  color: #FFFFFF;
+  background-color: rgb(107, 82, 236);
+}
+
+.salir{
+  text-decoration: underline;
+  color: green;
+  font-weight: bold;
+}
+
+.cruzia{
+  color: rgb(199, 4, 4);
+  font-weight: bold;;
+}
+
+
+.input-activo {
+  border: 2px solid #1524f3;
+  box-shadow: 0 0 10px rgba(164, 234, 243, 0.4); 
+  outline: none;
+  transition: all 0.3s ease; 
+}
+main{
+  width: 50%;
+  margin: auto;
+}
+.parrafo{
+  text-align: left;
+}
