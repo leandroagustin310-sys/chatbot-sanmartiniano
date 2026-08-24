@@ -98,10 +98,7 @@ button{
   outline: none;
   transition: all 0.3s ease; 
 }
-main{
-  width: 50%;
-  margin: auto;
-}
+
 .parrafo{
   text-align: left;
 }
